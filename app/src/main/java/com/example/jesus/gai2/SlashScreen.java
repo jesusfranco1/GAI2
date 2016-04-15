@@ -31,7 +31,7 @@ public class SlashScreen extends AppCompatActivity{
             public void onAnimationEnd(Animation animation) {
                 iv.startAnimation(an2);
                 finish();
-                Intent i = new Intent(this, Please.class);
+                Intent i = new Intent(getBaseContext(), Please.class);
                 startActivity(i);
 
             }
