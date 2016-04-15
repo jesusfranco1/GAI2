@@ -9,7 +9,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_please" tools:context=".Please">
 
-    <TextView android:text="hello hector" android:layout_width="wrap_content"
+    <TextView android:text="hello hector" android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:background="#242729"
         android:layout_gravity="center"
         android:id="@+id/lin_lay"
