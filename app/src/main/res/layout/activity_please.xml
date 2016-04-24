@@ -13,4 +13,10 @@
         android:layout_gravity="start" android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_please" app:menu="@menu/activity_please_drawer" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash"
+        android:background="@drawable/splash_img" />
+
 </android.support.v4.widget.DrawerLayout>

@@ -17,7 +17,7 @@ public class SlashScreen extends Activity{
         setContentView(R.layout.splash);
 
         final ImageView iv = (ImageView) findViewById(R.id.imageView);
-        final Animation an = AnimationUtils.loadAnimation(getBaseContext(),R.anim.rotate);
+        final Animation an = AnimationUtils.loadAnimation(this,R.anim.rotate);
         final Animation an2 = AnimationUtils.loadAnimation(getBaseContext(),R.anim.abc_fade_out);
 
         iv.startAnimation(an);
